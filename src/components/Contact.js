@@ -127,9 +127,6 @@ export const Contact = () => {
                           <span>"Send"</span>
                         </button>
                       </Col>
-                      <Col>
-                        <p className="success">{status.message}</p>
-                      </Col>
                     </Row>
                   </form>
                 </div>
