@@ -14,8 +14,6 @@ export const Contact = () => {
     message: "",
   };
   const [formDetails, setFormDetails] = useState(formInitialDetails);
-  // const [buttonText, setButtonText] = useState("Send");
-  // const [status, setStatus] = useState({});
 
   const onFormUpdate = (category, value) => {
     setFormDetails({
@@ -126,20 +124,12 @@ export const Contact = () => {
                           }
                         ></textarea>
                         <button type="submit">
-                          <span>{buttonText}</span>
+                          <span>"Send"</span>
                         </button>
                       </Col>
-                      {status.message && (
-                        <Col>
-                          <p
-                            className={
-                              status.success === false ? "danger" : "success"
-                            }
-                          >
-                            {status.message}
-                          </p>
-                        </Col>
-                      )}
+                      <Col>
+                        <p className="success">{status.message}</p>
+                      </Col>
                     </Row>
                   </form>
                 </div>
