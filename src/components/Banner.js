@@ -80,7 +80,7 @@ export const Banner = () => {
                     a Hodophile. Very passionate in web3.0 and blockchain
                     technology
                   </p>
-                  <button onClick={() => console.log("connect")}>
+                  <button onClick={() => console.log(index)}>
                     Let’s Connect <ArrowRightCircle size={25} />
                   </button>
                 </div>
