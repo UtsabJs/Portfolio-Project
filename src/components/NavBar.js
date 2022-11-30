@@ -98,7 +98,12 @@ export const NavBar = () => {
                 </a>
               </div>
 
-              <a href={resume} download="Utsav-Resume" target="_blank">
+              <a
+                href={resume}
+                download="Utsav-Resume"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <button className="vvd">
                   <span>Download CV</span>
                 </button>
