@@ -8,7 +8,7 @@ import mongoImg from "../assets/img/mongodb.png";
 import sqlImg from "../assets/img/sql.png";
 import tsImg from "../assets/img/ts.png";
 import reduxImg from "../assets/img/redux.png";
-import expressImg from "../assets/img/express.png";
+import expressImg from "../assets/img/express1.png";
 
 export const Skills = () => {
   const skillList = [
