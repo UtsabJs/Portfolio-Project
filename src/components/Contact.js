@@ -33,7 +33,15 @@ export const Contact = () => {
         formDetails,
         "ObhND6_iAFqQmQ6du"
       )
-      .then((result) => console.log(result))
+      .then((result) =>
+        setFormDetails({
+          firstName: "",
+          lastName: "",
+          email: "",
+          phone: "",
+          message: "",
+        })
+      )
       .catch((error) => console.log(error));
   };
 
