@@ -4,7 +4,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project6.png";
 import projImg2 from "../assets/img/second work.jpg";
 import projImg3 from "../assets/img/project1.png";
-import projImg4 from "../assets/img/first work.jpg";
+import projImg4 from "../assets/img/emiproject.png";
 import projImg5 from "../assets/img/fifth work.jpg";
 import projImg6 from "../assets/img/12345.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -22,11 +22,11 @@ export const Projects = () => {
       imgUrl: projImg2,
     },
     {
-      description: "Employee Management",
+      description: "LMS (Leave Management System)",
       imgUrl: projImg3,
     },
     {
-      description: "Design & Development",
+      description: "EMI 3.0",
       imgUrl: projImg4,
     },
     {
