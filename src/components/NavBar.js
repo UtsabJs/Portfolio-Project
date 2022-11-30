@@ -74,17 +74,17 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#">
+                <a href="javascript:void(0);">
                   <img src={navIcon1} alt="" />
                 </a>
-                <a href="#">
+                <a href="javascript:void(0);">
                   <img src={navIcon2} alt="" />
                 </a>
-                <a href="#">
+                <a href="javascript:void(0);">
                   <img src={navIcon3} alt="" />
                 </a>
               </div>
-              <HashLink to="#connect">
+              <HashLink to="javascript:void(0);">
                 <button className="vvd">
                   <span>Let’s Connect</span>
                 </button>
