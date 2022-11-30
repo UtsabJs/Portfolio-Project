@@ -96,11 +96,10 @@ export const NavBar = () => {
                   <img src={navIcon4} alt="github" />
                 </a>
               </div>
-              <HashLink to="javascript:void(0);">
-                <button className="vvd">
-                  <span>Let’s Connect</span>
-                </button>
-              </HashLink>
+
+              <button className="vvd">
+                <span>Let’s Connect</span>
+              </button>
             </span>
           </Navbar.Collapse>
         </Container>
