@@ -7,6 +7,7 @@ import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon4 from "../assets/img/github1.png";
 //import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
+import resume from "../assets/utsav_resume.pdf";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -97,9 +98,11 @@ export const NavBar = () => {
                 </a>
               </div>
 
-              <button className="vvd">
-                <span>Let’s Connect</span>
-              </button>
+              <a href={resume} download="Utsav-Resume" target="_blank">
+                <button className="vvd">
+                  <span>Download CV</span>
+                </button>
+              </a>
             </span>
           </Navbar.Collapse>
         </Container>
