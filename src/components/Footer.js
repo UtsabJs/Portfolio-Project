@@ -18,12 +18,14 @@ export const Footer = () => {
             <div className="social-icon">
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://www.linkedin.com/in/utsav-neupane-8632a7148/"
               >
                 <img src={navIcon1} alt="Icon" />
               </a>
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://www.facebook.com/utsab.neupane.716/"
               >
                 <img src={navIcon2} alt="Icon" />

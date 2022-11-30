@@ -76,17 +76,23 @@ export const NavBar = () => {
               <div className="social-icon">
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://www.facebook.com/utsab.neupane.716/"
                 >
                   <img src={navIcon2} alt="fb" />
                 </a>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://www.linkedin.com/in/utsav-neupane-8632a7148/"
                 >
                   <img src={navIcon1} alt="linkedin" />
                 </a>
-                <a target="_blank" href="https://github.com/Utsavthebug">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/Utsavthebug"
+                >
                   <img src={navIcon4} alt="github" />
                 </a>
               </div>
