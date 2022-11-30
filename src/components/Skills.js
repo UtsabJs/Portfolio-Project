@@ -1,12 +1,46 @@
 import React from "react";
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import colorSharp from "../assets/img/color-sharp.png";
+import nodeImg from "../assets/img/node.png";
+import reactImg from "../assets/img/react.png";
+import mongoImg from "../assets/img/mongodb.png";
+import sqlImg from "../assets/img/sql.png";
+import tsImg from "../assets/img/ts.png";
+import reduxImg from "../assets/img/redux.png";
+import expressImg from "../assets/img/express.png";
 
 export const Skills = () => {
+  const skillList = [
+    { name: "React", imgUrl: reactImg, alt: "react-img" },
+    { name: "Node", imgUrl: nodeImg, alt: "node-img" },
+    {
+      name: "Typescript",
+      imgUrl: tsImg,
+      alt: "ts-img",
+    },
+    {
+      name: "Express",
+      imgUrl: expressImg,
+      alt: "express-img",
+    },
+    {
+      name: "SQL",
+      imgUrl: sqlImg,
+      alt: "sql-img",
+    },
+    {
+      name: "MongoDB",
+      imgUrl: mongoImg,
+      alt: "mongo-img",
+    },
+    {
+      name: "Redux",
+      imgUrl: reduxImg,
+      alt: "redux-img",
+    },
+  ];
+
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -43,22 +77,29 @@ export const Skills = () => {
                 infinite={true}
                 className="owl-carousel owl-theme skill-slider"
               >
+                {skillList.map((data) => (
+                  <div className="item">
+                    <img src={data.imgUrl} alt={data.alt} />
+                    <h5>{data.name}</h5>
+                  </div>
+                ))}
+                {/* 
                 <div className="item">
-                  <img src={meter1} alt="meter1" />
-                  <h5>React</h5>
-                </div>
-                <div className="item">
-                  <img src={meter2} alt="meter2" />
+                  <img src={nodeImg} alt="meter2" />
                   <h5>Node</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="meter3" />
+                  <img src={mongoImg} alt="meter3" />
                   <h5>MongoDB</h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="meter" />
+                  <img src={sqlImg} alt="meter" />
                   <h5>SQL</h5>
                 </div>
+                <div className="item">
+                  <img src={tsImg} alt="meter" />
+                  <h5>Typescript</h5>
+                </div> */}
               </Carousel>
             </div>
           </div>

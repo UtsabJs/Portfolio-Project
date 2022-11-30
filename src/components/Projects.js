@@ -7,6 +7,7 @@ import projImg3 from "../assets/img/project1.png";
 import projImg4 from "../assets/img/emiproject.png";
 import projImg5 from "../assets/img/fifth work.jpg";
 import projImg6 from "../assets/img/12345.jpg";
+import nodeImg from "../assets/img/node.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
