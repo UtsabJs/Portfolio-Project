@@ -124,7 +124,7 @@ export const Contact = () => {
                           }
                         ></textarea>
                         <button type="submit">
-                          <span>"Send"</span>
+                          <span>Send</span>
                         </button>
                       </Col>
                     </Row>
