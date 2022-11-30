@@ -1,3 +1,4 @@
+import React from "react";
 import { Col } from "react-bootstrap";
 
 export const ProjectCard = ({ title, description, imgUrl }) => {
@@ -11,5 +12,5 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
         </div>
       </div>
     </Col>
-  )
-}
+  );
+};
